@@ -1,0 +1,1 @@
+export type TToast = "success" | "error" | "info" | "warning";

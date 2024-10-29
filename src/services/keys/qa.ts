@@ -1,0 +1,18 @@
+export const keysQA = {
+  GetListOperator: "zqgOODALYU-w3VAvWVOE7u-TtbZyZE9DiiO-q1pjojLXAzFu361Wrg==",
+  GetOperator: "GaG1V7TtLcDRX-lygzvpthMUbk7c6CYXCVmgjUIhJzXZAzFurlB1hw==",
+  GetDataOperator: "gFzzOsW_EyO7kWs9MQKbmebvhGcW9geiXZ5tzKqSpIDPAzFuUU_1qw==",
+  UpdateOperator: "f8FLZKl4RJg060hkRt596N0yOVqUeDggSFQnOaILBjW7AzFuG9CGDg==",
+  CreateOperator: "deZbHs6fMto6PWowIBZPvB2mpfnVIt5zN0WXk3_s0mF4AzFuB_uGlg==",
+  CreateSignatureAuth: "8FQ8nGu6dN8ul_XuysF6MLI2DXMCwGMlOnlmsi6mdN1ZAzFuzc7V4A==",
+  GetStratification: "XfUmA9XXQ9hCPzfEeRNarC4xkzutHrId4FUVVmCZheVKAzFuoUhKJw==",
+  GetServiceType: "8Q9Ii4VCCthhDFhZDtfprVjkFNtwK2l0lmI_kp9RJtA8AzFuT-3ZvQ==",
+  GetDepartment: "RkNGd41VDvJe1bua1cqOMZ3dW7lafw2dk2sohuHYOhHpAzFu92gqEw==",
+  GetCities: "Q04UGVsAAYHeXqPYIQNYaE74Y0g0sfmq2sLRmlgbS6IEAzFuws9KrQ==",
+  GetOrderGenerator: "T5FnoVTG-ShRcNqMls5ek5r2XeYYMTrNQA-bHVj_AXkFAzFuieCqpg==",
+  GetDispensaries: "OIRSS0VPCziv9QyQ7dA_QwsHqrDzSd3Oqe9grN7sOFMRAzFueCZOow==",
+  CreateStratification: "dFH-6SRwvX_c0SkycKzJqf3w4rH8nAmyLrA-VlGskk1FAzFu7IbHgQ==",
+  UpdateStratification: "8LlO-tthK0Fad9b8fxgBg6DCh0iXrwFY1JCrSOAqZ9w2AzFuGODDBQ==",
+  CreateParametry: "3CaaVrCInAvnz0XtVQjInKZEHhQnzzTcQqou2OtlmEZsAzFu4Ex_mA==",
+  GetParametry: "RLpRnX2gjkTM-2KXJmY2YKyoReOWdwQCeFvvvh7LXZQcAzFuXvuDtQ==",
+};

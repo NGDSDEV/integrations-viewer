@@ -1,0 +1,27 @@
+trigger:
+  branches:
+    include:
+      - qa  # Rama de despliegue
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '18'  # Especifica la versión de Node.js que necesitas
+  displayName: 'Install Node.js'
+
+- script: |
+    cd $(System.DefaultWorkingDirectory)  # Directorio del proyecto
+    npm install  # Instala las dependencias
+    npm run build  # Compila la aplicación
+  displayName: 'Install dependencies and build project'
+
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'digital-tecnologia-dev'
+    appName: 'app-med-integrador-react'
+    package: '$(System.DefaultWorkingDirectory)/.next'  # Paquete de compilación
+    deploymentMethod: 'zipDeploy'
+  displayName: 'Deploy to Azure Web App'
